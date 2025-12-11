@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Đơn Giản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #575757;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với Trang Web của dvzg</h1>
+    </header>
+
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Dịch vụ</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+
+    <main>
+        <h2>Về Chúng Tôi</h2>
+        <p>ha huu dang!</p>
+        <a href="#" class="btn">Tìm hiểu thêm</a>
+    </main>
+
+    <footer>
+        <p>&copy; Hãy sống 1 cuộc đời với những ao ước,niềm vui của bạn. </p>
+    </footer>
+</body>
+</html>
+<script defer> 77
+    let dang_08 = () => {
+     alert("Chúc cậu có 1 ngày vui vẻ <33 ")
+    }
+   </script>
+   <button  style="padding: 15px 30px; font-size: 18px"   onclick="dang_08 ()" type="button" name="myButton">
+       bấm vào đây!
+   </button> <br> 
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngôi sao ở 4 góc</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .corner-star {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            background: yellow;
+            clip-path: polygon(
+                50% 0%, 
+                61% 35%, 
+                98% 35%, 
+                68% 57%, 
+                79% 91%, 
+                50% 70%, 
+                21% 91%, 
+                32% 57%, 
+                2% 35%, 
+                39% 35%
+            );
+        }
+
+        .top-left {
+            top: 10px;
+            left: 10px;
+        }
+
+        .top-right {
+            top: 10px;
+            right: 10px;
+        }
+
+        .bottom-left {
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .bottom-right {
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+
+
+<style>
+  /* Định dạng toàn bộ trang */
+  body {
+    margin: 0;
+    background: #f1eeee;
+    height: 100vh;
+  }
+
+  /* Tạo hình trái tim */
+  .heart {
+    position: fixed;          /* Luôn nằm ở cùng một chỗ khi cuộn trang */
+    top: 50%;                 /* Giữa chiều cao trang */
+    right: 40px;              /* Cách lề phải 40px */
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    transform: rotate(-45deg);
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .heart::before,
+  .heart::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .heart::before {
+    top: -20px;
+    left: 0;
+  }
+
+  .heart::after {
+    left: 20px;
+    top: 0;
+  }
+
+  /* Hiệu ứng chuyển động lên xuống */
+  @keyframes float {
+    0%, 100% {
+      transform: rotate(-45deg) translateY(0);
+    }
+    50% {
+      transform: rotate(-45deg) translateY(-20px);
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- Trái tim -->
+  <div class="heart"></div>
+
+
+
+
+
+
+</head>
+<body>
+    <div class="corner-star top-left"></div>
+    <div class="corner-star top-right"></div>
+    <div class="corner-star bottom-left"></div>
+    <div class="corner-star bottom-right"></div>
+
+
+
+
+  
+
+  
+
+
+
+</body>
+</html>
+
+
